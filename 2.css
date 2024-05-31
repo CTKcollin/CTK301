@@ -1,0 +1,40 @@
+/*this is for page 1*/
+#divexample {background-color: #f6e2df;
+
+}
+
+p {color: crimson;
+}
+.specialp{ color: rgb(42, 42, 255);
+}
+#specialid {color: rgb(255, 255, 255);
+background-color: crimson;
+}
+.specialo{color: aliceblue;
+background-color: blue;
+}
+a {
+    color: #e21e00;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #00ff00;
+  }
+  
+  a:visited {
+    color: #5de845;
+  }
+  
+  a:active {
+    color: #0dffff;
+  }
+  
+  a:hover {
+    color: #fef619;
+    text-decoration: underline;
+  }        
+
+.spanstyle{color: rgb(13, 76, 251);
+
+  }

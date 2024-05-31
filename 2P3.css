@@ -1,0 +1,35 @@
+/*this is for page 1*/
+p {color: rgb(157, 180, 47);
+}
+.specialp{ color: rgb(42, 42, 255);
+}
+#specialid {color: rgb(250, 221, 76);
+background-color: rgb(164, 178, 75);
+}
+.specialo{color: rgb(250, 221, 76);
+background-color: rgb(164, 178, 75);
+}
+.speciali{color: rgb(164, 178, 75);
+    background-color: rgb(250, 221, 76);
+    }
+a {
+    color: #e21e00;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #00ff00;
+  }
+  
+  a:visited {
+    color: #5de845;
+  }
+  
+  a:active {
+    color: #0dffff;
+  }
+  
+  a:hover {
+    color: #fef619;
+    text-decoration: underline;
+  }        

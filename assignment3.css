@@ -20,12 +20,22 @@ h1 {
     margin: 15px;
     color: rgb(255, 255, 255);
     padding: 15px;
+    margin-bottom: 0px;
 }
 nav {
     grid-column: span 3;
 }
+
+nav ul {
+    list-style: none;
+    margin: 15px;
+    margin-right: 0px;
+    padding: 0px;
+}
 main {
     grid-column: span 9;
+    padding-right: 15px;
+    padding-left: 0px;
 }
 nav li {
     font-family: helvetica;
@@ -55,17 +65,21 @@ h2{
     float: left;
     border: 3px solid #000000;
     background-color: #ffffff;
-    padding: 10px;
-    margin-left:0px ;
-    margin: 10px;
-    width: 350px;
+    padding: 8px;
+    margin-right:10px !important ;
+    margin-bottom: 0px ;
+    margin: 0px;
+    width: 450px;
 
 }
 
 p {
     font-family: Georgia;
     text-align: justify;
-    padding: 15px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+
 }
 
 .bold {

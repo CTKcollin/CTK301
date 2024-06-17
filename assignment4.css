@@ -1,0 +1,120 @@
+body {
+    background-image: url(yellowimg.png);
+}
+
+.container {
+    
+ display: grid;
+ grid-template-rows: 70px 70px auto;
+ grid-template-columns: repeat(12,1fr);
+ background-color: #fdde8a;
+    width: 1450px;
+    border:3px solid #000000;
+    margin:auto;
+}
+
+header {
+    
+    grid-column: span 15 ;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: #0e7148;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-bottom: 0px;
+}
+
+
+nav {
+      grid-row: 2/5;
+    grid-column: 1/9 ;
+}
+
+nav ul {
+    display:block;
+    list-style: none;
+    margin: 15px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-right:0px;
+    padding-left: 0px;
+}
+
+nav li {
+    font-family: helvetica;
+    text-align: center;
+    display: inline-block;
+    width: 219px ;
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+ }
+ nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    background-color: #0e7148;
+ }
+ nav li a:hover {
+    background-color:rgb(14, 77, 45) ;
+}
+
+
+
+.rightblock {
+  grid-row: 2/12;
+    grid-column: 9/15 ;
+    text-align: justify;
+}
+.leftblock1 {
+ grid-row: 3/3;
+    grid-column: 1/5 ;
+}
+.leftblock2 {
+ grid-row: 3/3;
+    grid-column: 5/9 ;
+}
+.leftblock3 {
+ grid-row: 5/5;
+    grid-column: 1/5 ;
+}
+.leftblock4 {
+ grid-row: 5/5;
+    grid-column: 5/9 ;
+}
+
+.imgborder {
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    width: 450px;
+
+}
+.imgborder2 {
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    width: 450px;
+    margin-top: 20px
+
+}
+
+p {
+  padding: 0px;
+    margin: 15px;
+}
+
+
+
+footer {
+    font-style: italic;
+    text-align: center;
+    grid-column: span 12;
+    color: #ffffff;
+    background-color: #0e7148;
+}
+

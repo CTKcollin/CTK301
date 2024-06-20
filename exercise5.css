@@ -1,0 +1,143 @@
+body {
+    background-image: url(yellowimg.png);
+}
+
+.container {
+    
+ display: grid;
+ grid-template-rows: 70px 70px auto;
+ grid-template-columns: repeat(12,1fr);
+ background-color: #fdde8a;
+    width: 1450px;
+    border:3px solid #000000;
+    margin:auto;
+}
+
+header {
+    
+    grid-column: span 15 ;
+}
+
+h1 {
+    font-family: "Teko", sans-serif;
+    font-weight: normal;
+    background-color: #0e7148;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-bottom: 0px;
+    border-radius: 2px;
+}
+
+
+nav {
+      grid-row: 2/5;
+    grid-column: 1/9 ;
+}
+
+nav ul {
+    display:block;
+    list-style: none;
+    margin: 15px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-right:0px;
+    padding-left: 0px;
+}
+
+nav li {
+    font-family: helvetica;
+    text-align: center;
+    display: inline-block;
+    width: 219px ;
+    height: 100px;
+    margin: 15px;
+    margin-left: 0px;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+ }
+ nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 50px;
+    display: block;
+    padding: 12px;
+    background-color: #0e603e;
+    transition: background-color 0.5s, box-shadow 0.5s, color 1.0s, width 0.5s;
+ }
+ nav li a:hover {
+    background-color:rgb(14, 77, 45) ;
+     box-shadow: 0px 0px 10px #ff2626; /* x, y, blur, color */
+    
+}
+
+
+
+.rightblock {
+  grid-row: 2/12;
+    grid-column: 9/15 ;
+    text-align: justify;
+}
+.leftblock1 {
+ grid-row: 3/3;
+    grid-column: 1/5 ;
+}
+.leftblock2 {
+ grid-row: 3/3;
+    grid-column: 5/9 ;
+}
+.leftblock3 {
+ grid-row: 5/5;
+    grid-column: 1/5 ;
+}
+.leftblock4 {
+ grid-row: 5/5;
+    grid-column: 5/9 ;
+}
+
+.imgborder {
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    width: 430px;
+    float: left;
+
+}
+
+.imgborder2 {
+    border: 3px solid #c00000;
+    background-color: #ffffff;
+    width: 430px;
+    margin-top: 0px;
+    border-radius: 500px;
+    box-shadow: 0px 0px 20px #812323; /* x, y, blur, color */
+    
+
+}
+footer a {
+    color: #ffffff;
+    font-size: large;
+}
+footer {
+    font-style: italic;
+    text-align: left;
+    padding: 15px;
+    grid-column: span 12;
+    color: #ffffff;
+    background-color: #0e7148;
+}
+.feet {
+    background-color: #0e7148 !important;
+}
+p {
+  padding: 10px;
+    margin: 15px;
+    background-color: #fff9d4;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+

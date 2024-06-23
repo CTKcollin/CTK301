@@ -1,0 +1,146 @@
+body {
+    background-image: url(yellowimg.png);
+}
+#wrapper {
+    
+ display: grid;
+ grid-template-rows: repeat(12);
+ grid-template-columns: repeat(12,1fr);
+ background-color: #fdde8a;
+ border-radius: 10px;
+ border: 5px solid #0e7148;
+ width: 1100px;
+ margin: auto;
+
+}
+
+header {
+    
+    grid-column: span 15 ;
+}
+h1 {
+    font-family: "Teko", sans-serif;
+    font-weight: normal;
+    background-color: #0e7148;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-bottom: 0px;
+    
+}
+
+
+nav {
+      grid-row: 2 ;
+    grid-column: span 8 ;
+}
+nav ul {
+    display:block;
+    list-style: none;
+  margin-top: 15px;
+  margin-left: -30px;
+  margin-bottom: 0;
+  
+
+}
+nav li {
+    font-family: helvetica;
+    text-align: center;
+    display: inline-block;
+    margin: 4px;
+    width: 160px;
+    color: rgb(255, 255, 255);
+ }
+ nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 50px;
+    display: block;
+    margin-bottom: 0;
+    padding: 19px;
+    background-color: #0e603e;
+    transition: background-color 0.5s, box-shadow 0.5s, color 1.0s, width 0.5s;
+ }
+ nav li a:hover {
+    background-color:rgb(14, 77, 45) ;
+     box-shadow: 0px 0px 10px #47ff26; /* x, y, blur, color */
+    
+}
+
+
+
+.rightblock {
+  grid-row: 2/12;
+    grid-column: 9/15 ;
+    text-align: justify;
+    border-top-left-radius: 500px!important; 
+    border-top-right-radius:500px !important; 
+    padding: 10px;
+    margin: 15px;
+    background-color: #fff9d4;
+    border-radius: 10px;
+    text-align: justify;
+}
+.leftblock1 {
+ grid-row: 3/3;
+    grid-column: 1/5 ;
+}
+.leftblock2 {
+ grid-row: 3/3;
+    grid-column: 5/9 ;
+}
+.leftblock3 {
+ grid-row: 5/5;
+    grid-column: 1/5 ;
+}
+.leftblock4 {
+ grid-row: 5/5;
+    grid-column: 5/9 ;
+}
+
+.imgborder {
+    box-shadow: 0px 0px 10px #92741c; /* x, y, blur, color */
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    
+
+}
+.imgborder2 {
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 500px;
+    box-shadow: 0px 0px 10px #817623; /* x, y, blur, color */
+    
+
+}
+
+footer a {
+    color: #ffffff;
+    font-size: large;
+}
+footer {
+    font-style: italic;
+    text-align: left;
+    padding: 15px;
+    grid-column: span 12;
+    color: #ffffff;
+    background-color: #0e7148;
+}
+.feet {
+    background-color: #0e7148 !important;
+}
+
+p {
+  padding: 10px;
+    margin: 15px;
+    background-color: #fff9d4;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+
+
+
+
